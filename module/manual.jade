@@ -1,0 +1,69 @@
+doctype html
+html
+  head
+    meta(property="og:locale",content="zh_TW")
+    meta(property="og:title",content="獎助金專案樣板")
+    meta(property="og:type",content="article")
+    meta(property="og:url",content="https://g0v.github.io/grants-landing-template")
+    meta(property="og:image",content="https://g0v.github.io/grants-landing-template/img/thumbnail.jpg")
+    meta(property="og:image:type",content="image/jpg")
+    meta(property="og:image:width",content="1084")
+    meta(property="og:image:height",content="631")
+    meta(property="og:description",content="獎助金專案專用的一頁式專案說明樣板")
+    meta(property="article:author",content="zbryikt")
+    meta(property="article:section",content="Taiwan")
+    meta(charset="utf-8")
+    link(rel="stylesheet",type="text/css",
+    href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css")
+    link(rel="stylesheet",href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css")
+    link(href='//fonts.googleapis.com/css?family=Asap:400',rel='stylesheet',type='text/css')
+    script(src="https://code.jquery.com/jquery-3.2.1.min.js")
+    script(src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js")
+
+
+  body
+
+    .container
+
+        h1.text-center.mt-5 TWSR 網頁App使用手冊 
+        h2.text-center v0.1 2018/05/24
+
+        p 連結網址： 
+          a(href='https://collector.twsr.xyz') https://collector.twsr.xyz
+
+        p 採集概要：在交通載具行駛中，透過瀏覽器開啟本網址並按下同意按鈕後開始採集相關數據。
+
+        p 注意事項：請勿在駕駛行為中，使用本網址，以確保行車安全。
+
+        p 詳細程序：
+
+        p 
+          ul(style='list-style-type:none;')
+
+            li 1.當你連結到本網址時，將直接出現下列畫面。請依序填入姓名（Name), 選擇交通載具種類（Vehicle Type) 及 同意本網頁使用聲明後，點選OK. （可點選“這就是聲明”，詳細了解使用本網頁之相關權利義務。若不同意本網頁聲明，請勿使用本網頁功能。）
+
+            li 2.點選ＯＫ，即同意讓本網頁透過你的手機採集資料，採集資料包含但不限於GPS資料，三軸加速器資料，及其他手機感測器的資料。此外，本服務不會紀錄或擷取你的個人資料或聯絡人等個人私密檔案及資訊。
+
+            li 3.資料採集時，畫面之左上角將顯示相關資料偵測及蒐集的狀態，如下：
+
+            lu.ml-5(style='list-style-type:disc;')
+
+              li.ml-5 UUID: XXXXXXXXXXXXXXXXXXX (指目前你所使用的裝置，透過在瀏覽器上隨機生成cookie所生成之隨機碼）
+
+              li.ml-5 orientation: 0/0 (指目前採集到的手機姿態訊號多寡; 前者為資料頻率，後者為累積總數）
+
+              li.ml-5 motion: 0/0 (指目前採集到的手機加速度訊號多寡; 前者為資料頻率，後者為累積總數）
+
+              li.ml-5 geolocation:0/0 (指目前採集到的手機GPS座標資料多寡; 前者為資料頻率，後者為累積總數）
+
+              li.ml-5 upload index: null/o (指經資料過濾後上傳至伺服器之狀態及筆數）採集過程中，請盡量將手機置放於載具（汽車或公車）之平穩位置，以利採集數據的品質提升。
+
+            li 4.如欲停止採集資料時，請按下左上角按鈕“Stop Recording”或關閉瀏覽器頁面即停止資料採集。
+
+            li 5.採集的資料，將在系統背景下傳回伺服器進行測試及分析。不另行發送通知或說明。
+
+        p 最後，感謝你參與本專案的開發及測試。本專案開發受g0v 公民科技單位的獎助金補助，其最終成果將以開放資料及開放原始碼方式提供大眾進行後續加值及利用。詳情請參閱本專案Landing Page 
+          a(href='https://twsr.github.io/landing/') (https://twsr.github.io/landing/ )
+
+
+
