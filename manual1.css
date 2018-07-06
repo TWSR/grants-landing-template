@@ -6,6 +6,7 @@
 /* Links */
 
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 serif,
 a,
 a:focus,
@@ -104,11 +105,12 @@ body {
 /* main */
 
 .warning {
-    text-shadow: .05rem .05rem .1rem lightsalmon;
+    font-family: 'Noto Sans TC', sans-serif;
+    /* text-shadow: .05rem .05rem .1rem lightsalmon; */
 }
 
 .main {
-    background-color: #28a745
+    background-color: #76ec92
 }
 
 
